@@ -97,14 +97,6 @@ h1{
 }
 
 
-footer {
-    background-color: #8801FE;
-    height: 40px;
-    margin-top: 15px;
-    
-    
-}
-
 /*SIDEBAR*/
 /*Sidebar-left*/
 .sidebar-left{
@@ -171,4 +163,24 @@ span{
     background-position: center;
     height: 40%;
     margin-bottom: 15px;
+}
+
+/*FOOTER*/
+footer {
+    width: 100%;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.position-text{
+    text-align: center;
+}
+
+.color-text{
+    color: black;
+}
+
+.color-hearts{
+    display: inline;
+    color: red;
 }
