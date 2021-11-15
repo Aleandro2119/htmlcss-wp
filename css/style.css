@@ -51,11 +51,35 @@ a{
 }
 
 
+/*MAIN*/
+/*Spotlight*/
+.spotlight{
+    background-image: url("../img/banner.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    height: 400px;  
+    margin-top: 30px; 
+    position: relative;
+}
 
-#spotlight{
-    background-color: #E1D67A;
+.img-opacity{
+    background-color: rgba(2, 2, 2, 0.1);
+    border-radius: 10px;
     height: 400px;
-    margin-top: 15px;
+}
+
+.information{
+    position: absolute;
+    bottom: 50px;
+    left: 40px;
+    color: white;
+    width: 50%;
+}
+
+h3{
+    font-size: 25px;
+    font-weight: normal;
 }
 
 .bg-lightblue{
