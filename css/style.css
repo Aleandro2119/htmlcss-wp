@@ -1,0 +1,78 @@
+/*General*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*Utils*/
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.clearfix::after{
+    clear: both;
+    content:"";
+    display: block;
+}
+
+#ground{
+    padding-bottom: 15px;
+    background-color: #0086FF;
+}
+
+/*Products*/
+header{
+    background-color: #E579E6;
+    height: 80px;
+    margin-top: 15px;
+}
+
+
+#spotlight{
+    background-color: #E1D67A;
+    height: 400px;
+    margin-top: 15px;
+}
+
+.bg-lightblue{
+    height:70px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #ABCFE7;
+    padding-bottom: 15px;
+}
+
+footer {
+    background-color: #8801FE;
+    height: 40px;
+    margin-top: 15px;
+    
+    
+}
+
+/*Sidebar*/
+.sidebar-left{
+    float: left;
+    width: 20%;
+    height: 300px;
+    background-color: #ABCFE7;
+}
+
+.sidebar-center{
+    float: left;
+    width: calc(60% - 30px);
+    margin: 0 15px;
+    height: 300px;
+    background-color: #ABCFE7;
+}
+
+.sidebar-right{
+    float: right;
+    width: 20%;
+    height: 300px;
+    background-color: #ABCFE7;
+}
+
